@@ -16,11 +16,12 @@ bot.start((ctx) => {
 
 bot.command("recommend", (ctx) => {
   ctx.reply(
-    "What’s your area of interest?",
+    "What's your area of interest?",
     Markup.inlineKeyboard([
       [Markup.button.callback("Programming", "programming")],
-      [Markup.button.callback("Design", "design")],
-      [Markup.button.callback("Business", "business")],
+      [Markup.button.callback("Designing", "designing")],
+      [Markup.button.callback("Development", "development")],
+      [Markup.button.callback("DSA", "dsa")],
     ])
   );
 });
