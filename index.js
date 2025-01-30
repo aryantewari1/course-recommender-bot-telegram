@@ -17,10 +17,22 @@ const programmingLang = {
     { broCode: "https://youtu.be/xk4_1vDrzzo?si=9XrvwWOk9DGj6VPx" },
     { programmingWithMosh: "https://youtu.be/eIrMbAQSU34?si=qbrEfGxslDEbKkGz" },
   ],
-  programmingPython: [],
-  programmingJavascript: [],
-  programmingCpp: [],
-  programmingGoLang: [],
+  programmingPython: [
+    { HuxnWebDev: "https://youtu.be/JZDQKj9BOoc?si=v9tK0cL5uge1ePch" },
+    { HarvardEdu: "https://youtu.be/nLRL_NcnK-4?si=O1D9wE4VX4lAG029" },
+    { techWorldWithNana: "https://youtu.be/t8pPdKYpowI?si=eD7ZeZrBCMY709K9" },
+  ],
+  programmingJavascript: [
+    { AkshaySaini: "https://youtu.be/pN6jk0uUrD8?si=1nk_jTmioqZGqkUZ" },
+    { PiyushGarg: "https://youtu.be/5hqLNHCq_l8?si=CsHUXvh92rxCEVJR" },
+  ],
+  programmingCpp: [
+    { ChaiAurCode: "https://youtu.be/gCkPJTSZ9mU?si=ug7LdS7JRtua5muO" },
+  ],
+  programmingGoLang: [
+    { HuxnWebDev: "https://youtu.be/N2GWXuj_IWg?si=MCb4tV8CId-9a5lF" },
+    { techWorldWithNana: "https://youtu.be/yyUHQIec83I?si=nuliKOH-6vjOh3IS" },
+  ],
 };
 bot.start((ctx) => {
   ctx.reply(
